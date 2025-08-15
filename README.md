@@ -1,4 +1,16 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/FoyjQ7s2)
+
+# Carlos Andrés Vargas Escobar
+## ID: 337093
+
+[Link](https://dsaw-2025-ii.github.io/my-cv-part-c-vargasesc17/) de mi CV responsiva.
+
+## Juego de Grid Garden completo
+![imagen-grid-garden-completo](grid-garden-ss.png)
+
+## Juego de Flex Froggy completo
+![imagen-flex-froggy-completo](flex-froggy-ss.png)
+
 # Bienvenidos a la Tarea de HTML y CSS
 
 ¡Hola a todos!
