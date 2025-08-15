@@ -5,7 +5,7 @@ body {
   
 }
 body h2 {
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .encabezado {
@@ -22,7 +22,7 @@ body h2 {
   color: black;
 }
 .info-general h1 {
-  font-size: 1.5em;
+  font-size: 1.8em;
 }
 
 .info-contacto {
@@ -38,7 +38,7 @@ body h2 {
 }
 .info-contacto li {
   color: white;
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .profile-pic {
@@ -64,29 +64,48 @@ body h2 {
 }
 
 .hab-int-hob {
-  background-color: #5F8196;
   border-radius: 10px;
-  padding: 15px;
   color: white;
-  margin: 0;
+  gap: 10px
 }
 .hab-int-hob h3 {
-  font-size: 0.9em;
+  font-size: 1.5em;
 }
 .hab-int-hob li {
-  font-size: 0.8em;
+  font-size: 1.1em;
+}
+
+.habilidades {
+    background-color: #7BADB5;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.intereses {
+    background-color: #6092A6;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.hobbies {
+    background-color: #7BADB5;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
 
 .resumen p {
-  font-size: 0.8em;
+  font-size: 1.1em;
 }
 
 .formacion-academica li {
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 
 .exp-laboral p {
-  font-size: 0.8em;
+  font-size: 1.1em;
 }
 
 /*Apartado de contactos*/
@@ -97,7 +116,7 @@ body h2 {
   color: white;
 }
 
-@media (max-width: 420px) {
+@media (max-width: 481px) {
   .encabezado {
     display: flex;
     flex-direction: column;
@@ -109,18 +128,39 @@ body h2 {
 
     .info-general {
         align-self: flex-start;
-        font-size: 80%;
+        font-size: 70%;
     }
 
     .info-contacto {
-        font-size: 110%;
+        font-size: 100%;
     }
 
   }
+
   .info-completa {
     grid-template-columns: 1fr;
     gap: 15px;
+    font-size: 75%;
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+@media (min-width: 482px) and (max-width: 1024px) {
+    .info-general {
+        font-size: 80%;
+    }
+
+    .info-completa {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .academico-laboral {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hab-int-hob {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }    
+}
