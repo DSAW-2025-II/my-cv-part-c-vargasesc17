@@ -6,10 +6,10 @@
 [Link](https://dsaw-2025-ii.github.io/my-cv-part-c-vargasesc17/) de mi CV responsiva.
 
 ## Juego de Grid Garden completo
-![imagen-grid-garden-completo](grid-garden-ss.png)
+![imagen-grid-garden-completo](/images/grid-garden-ss.png)
 
 ## Juego de Flex Froggy completo
-![imagen-flex-froggy-completo](flex-froggy-ss.png)
+![imagen-flex-froggy-completo](/images/flex-froggy-ss.png)
 
 # Bienvenidos a la Tarea de HTML y CSS
 
